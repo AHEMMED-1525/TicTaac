@@ -22,14 +22,14 @@ public class TicTacToe
 			String playerChoice = input.nextLine();
 			if (playerChoice.equals("X"))
 			{
-				System.out.println("user has written X");
+				System.out.println("User has Entered X");
 				compChar = "O";
 				System.out.println(" computer has " +compChar);
 				
 			}
 			else
 			{
-				System.out.println("user has written O");
+				System.out.println("User has Entered O");
 				compChar = "X";
 				System.out.println("computer has " + compChar);
 			}
