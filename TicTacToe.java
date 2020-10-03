@@ -7,7 +7,7 @@ public class TicTacToe
 	
 	Scanner input = new Scanner(System.in);
 		/* User Case 1*/
-		public void initializBoard()
+		public void initializBoard() // Initializing the board
 		{
 			for(index = 1; index<10 ; index++)
 			{
@@ -17,21 +17,21 @@ public class TicTacToe
 		/* UserCase 2 */
 		public void readPlayer()
 		{
-			String computerChar;
+			String compChar;
 			System.out.println("Enter a character X or O ");
 			String playerChoice = input.nextLine();
 			if (playerChoice.equals("X"))
 			{
 				System.out.println("user has written X");
-				computerChar = "O";
-				System.out.println(" computer has " +computerChar);
+				compChar = "O";
+				System.out.println(" computer has " +compChar);
 				
 			}
 			else
 			{
 				System.out.println("user has written O");
-				computerChar = "X";
-				System.out.println("computer has " + computerChar);
+				compChar = "X";
+				System.out.println("computer has " + compChar);
 			}
 			input.close();
 			
